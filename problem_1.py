@@ -36,7 +36,23 @@ Valores aceitos.
 
 
 def main():
-    pass  # your code here
+    A = int(input("Digite o valor A: "))
+    B = int(input("Digite o valor B: "))
+    C = int(input("Digite o valor C: "))
+    D = int(input("Digite o valor D: "))
+    somaCD = C + D
+    somaAB = A + B
+    quant = 0
+    if B > C:
+        if D > A:
+            if somaCD > somaAB:
+               if C and D >= 0:
+                   if (A%2) == 0:
+                                      
+                      print("Valores aceitos.")
+    else:
+                      print("Valores recusados.")
+
 
 
 if __name__ == '__main__':
